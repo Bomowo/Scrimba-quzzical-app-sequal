@@ -86,7 +86,6 @@ function App() {
     <main>
       {gameInProgress?
       <div className='question-list'>
-        This game is in progress
         {questionList}
         <button onClick={checkAnswers}>Check answers</button>
         <span className='score'>{showCorrect && correctAnswerd} / 5</span>
